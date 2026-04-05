@@ -19,7 +19,7 @@ class EstadoOrden(str, Enum):
 class OrdenCompra(BaseModel):
     """Represents a purchase order in the system"""
     
-    id: Optional[int] = Field(None, description="Auto-increment primary key")
+    id: int = Field(..., description="Auto-increment primary key")
     cliente_id: int = Field(..., gt=0, description="Customer ID (foreign key)")
     sucursal_id: int = Field(..., gt=0, description="Branch ID (foreign key)")
     fecha_orden: datetime = Field(default_factory=datetime.now, description="Order date")

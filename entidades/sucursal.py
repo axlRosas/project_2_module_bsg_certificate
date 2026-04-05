@@ -7,7 +7,7 @@ from pydantic import BaseModel, Field, field_validator
 class Sucursal(BaseModel):
     """Represents a branch location in the system"""
     
-    id: Optional[int] = Field(None, description="Auto-increment primary key")
+    id: int = Field(..., description="Auto-increment primary key")
     nombre: str = Field(..., min_length=1, max_length=120, description="Branch name")
     codigo_sucursal: str = Field(..., min_length=1, max_length=30, description="Unique branch code")
     calle: str = Field(..., min_length=1, max_length=150, description="Street name")

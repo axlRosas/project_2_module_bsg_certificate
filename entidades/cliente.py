@@ -8,7 +8,7 @@ from pydantic import BaseModel, EmailStr, Field, field_validator
 class Cliente(BaseModel):
     """Represents a customer in the system"""
     
-    id_cliente: Optional[int] = Field(None, description="Auto-increment primary key")
+    id_cliente: int = Field(..., description="Auto-increment primary key")
     name: str = Field(..., min_length=1, max_length=100, description="Customer first name")
     last_name: str = Field(..., min_length=1, max_length=100, description="Customer last name")
     email: EmailStr = Field(..., max_length=150, description="Unique email address")
