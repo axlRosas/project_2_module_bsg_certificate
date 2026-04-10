@@ -34,6 +34,7 @@ from db_interactions import (
     get_sales_by_cliente,
     get_revenue_by_month
 )
+from populate_database_pandas import populate_database
 
 
 def print_header(title: str, width: int = 100):
@@ -212,6 +213,8 @@ def main():
         print("Populating transactional database with sample data...")
         try:
             load_json_data()
+            print("----------------Now using pandas to populate order details and update totals----------------")
+            populate_database()
             print("✓ Sample data loaded successfully\n")
         except Exception as e:
             print(f"⚠ Sample data loading completed (some data may already exist): {e}\n")
