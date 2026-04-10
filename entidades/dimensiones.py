@@ -260,7 +260,7 @@ class DimMetodoPago(BaseModel):
 class FactVentas(BaseModel):
     """Ventas (Sales) Fact Table"""
     
-    venta_key: int = Field(..., description="Auto-increment fact key")
+    venta_key: Optional[int] = Field(None, description="Auto-increment surrogate key")
     
     # Degenerate dimensions
     orden_id: int = Field(..., description="Order ID (degenerate dimension)")
