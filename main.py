@@ -21,6 +21,7 @@ from pathlib import Path
 import sqlite3
 from tabulate import tabulate
 import pandas as pd
+import traceback
 
 # Add project to path
 sys.path.insert(0, str(Path(__file__).parent))
@@ -257,7 +258,7 @@ def main():
         
     except Exception as e:
         print(f"\n❌ ERROR: {e}")
-        import traceback
+        
         traceback.print_exc()
         sys.exit(1)
 
