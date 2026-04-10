@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """Quick test to verify pydantic models work"""
 
-from entidades.cliente import Cliente
-from entidades.sucursal import Sucursal
-from entidades.orden_compra import OrdenCompra, EstadoOrden
-from entidades.detalle_orden import DetalleOrden
+from cliente import Cliente
+from sucursal import Sucursal
+from orden_compra import OrdenCompra, EstadoOrden
+from detalle_orden import DetalleOrden
 from decimal import Decimal
 from datetime import datetime
 
