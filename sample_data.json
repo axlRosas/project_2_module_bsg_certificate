@@ -1,0 +1,630 @@
+{
+  "clientes": [
+    {
+      "nombre": "Juan",
+      "apellido": "Pérez",
+      "email": "juan.perez@email.com",
+      "telefono": "5551234567"
+    },
+    {
+      "nombre": "María",
+      "apellido": "García",
+      "email": "maria.garcia@email.com",
+      "telefono": "5559876543"
+    },
+    {
+      "nombre": "Carlos",
+      "apellido": "López",
+      "email": "carlos.lopez@email.com",
+      "telefono": "5554567890"
+    },
+    {
+      "nombre": "Ana",
+      "apellido": "Martínez",
+      "email": "ana.martinez@email.com",
+      "telefono": "5552345678"
+    },
+    {
+      "nombre": "Roberto",
+      "apellido": "Fernández",
+      "email": "roberto.fernandez@email.com",
+      "telefono": "5559988776"
+    },
+    {
+      "nombre": "Gabriela",
+      "apellido": "Rodríguez",
+      "email": "gabriela.rodriguez@email.com",
+      "telefono": "5551112222"
+    },
+    {
+      "nombre": "Miguel",
+      "apellido": "Sánchez",
+      "email": "miguel.sanchez@email.com",
+      "telefono": "5553334444"
+    },
+    {
+      "nombre": "Patricia",
+      "apellido": "Díaz",
+      "email": "patricia.diaz@email.com",
+      "telefono": "5555556666"
+    },
+    {
+      "nombre": "Diego",
+      "apellido": "Torres",
+      "email": "diego.torres@email.com",
+      "telefono": "5557778888"
+    },
+    {
+      "nombre": "Sofia",
+      "apellido": "Ruiz",
+      "email": "sofia.ruiz@email.com",
+      "telefono": "5559999999"
+    }
+  ],
+  "productos": [
+    {
+      "sku": "SKU001",
+      "nombre": "Laptop Dell 15 pulgadas",
+      "descripcion": "Laptop Dell Inspiron 15, procesador Intel i7, 16GB RAM, 512GB SSD",
+      "categoria": "Electrónica",
+      "precio": 899.99,
+      "stock": 25
+    },
+    {
+      "sku": "SKU002",
+      "nombre": "Monitor Samsung 27 pulgadas",
+      "descripcion": "Monitor Samsung 4K UHD, 60Hz, 5ms",
+      "categoria": "Electrónica",
+      "precio": 299.99,
+      "stock": 40
+    },
+    {
+      "sku": "SKU003",
+      "nombre": "Teclado Mecánico RGB",
+      "descripcion": "Teclado mecánico RGB con switches Cherry MX",
+      "categoria": "Accesorios",
+      "precio": 89.99,
+      "stock": 100
+    },
+    {
+      "sku": "SKU004",
+      "nombre": "Mouse Logitech Inalámbrico",
+      "descripcion": "Mouse inalámbrico Logitech MX Master 3S",
+      "categoria": "Accesorios",
+      "precio": 45.99,
+      "stock": 150
+    },
+    {
+      "sku": "SKU005",
+      "nombre": "Headset Gamer Pro",
+      "descripcion": "Headset gamer inalámbrico con micrófono cancelador de ruido",
+      "categoria": "Audio",
+      "precio": 129.99,
+      "stock": 45
+    },
+    {
+      "sku": "SKU006",
+      "nombre": "Webcam HD 1080p",
+      "descripcion": "Webcam HD 1080p con micrófono integrado",
+      "categoria": "Accesorios",
+      "precio": 59.99,
+      "stock": 60
+    },
+    {
+      "sku": "SKU007",
+      "nombre": "SSD Samsung 1TB",
+      "descripcion": "SSD Samsung 970 EVO Plus 1TB NVMe M.2",
+      "categoria": "Almacenamiento",
+      "precio": 99.99,
+      "stock": 80
+    },
+    {
+      "sku": "SKU008",
+      "nombre": "Memoria RAM 16GB DDR4",
+      "descripcion": "Memoria RAM Corsair Vengeance 16GB DDR4 3200MHz",
+      "categoria": "Memoria",
+      "precio": 69.99,
+      "stock": 120
+    },
+    {
+      "sku": "SKU009",
+      "nombre": "Fuente de poder 750W",
+      "descripcion": "Fuente de poder modular 750W 80+ Gold",
+      "categoria": "Componentes",
+      "precio": 119.99,
+      "stock": 35
+    },
+    {
+      "sku": "SKU010",
+      "nombre": "Ventilador LED RGB",
+      "descripcion": "Ventilador LED RGB 120mm para caja de PC",
+      "categoria": "Accesorios",
+      "precio": 25.99,
+      "stock": 200
+    }
+  ],
+  "sucursales": [
+    {
+      "nombre": "Sucursal Centro",
+      "codigo_sucursal": "SC001",
+      "calle": "Avenida Paseo de la Reforma",
+      "numero": "505",
+      "colonia": "Cuauhtémoc",
+      "ciudad": "Ciudad de México",
+      "estado": "México",
+      "codigo_postal": "06500",
+      "latitud": 19.432600,
+      "longitud": -99.133200
+    },
+    {
+      "nombre": "Sucursal Norte",
+      "codigo_sucursal": "SN001",
+      "calle": "Boulevard Manuel Ávila Camacho",
+      "numero": "2000",
+      "colonia": "Chapultepec",
+      "ciudad": "Ciudad de México",
+      "estado": "México",
+      "codigo_postal": "11570",
+      "latitud": 19.437200,
+      "longitud": -99.165900
+    },
+    {
+      "nombre": "Sucursal Sur",
+      "codigo_sucursal": "SS001",
+      "calle": "Avenida Universidad",
+      "numero": "1500",
+      "colonia": "Oxtopulco",
+      "ciudad": "Ciudad de México",
+      "estado": "México",
+      "codigo_postal": "04000",
+      "latitud": 19.325600,
+      "longitud": -99.178900
+    },
+    {
+      "nombre": "Sucursal Oriente",
+      "codigo_sucursal": "SO001",
+      "calle": "Anillo Periférico",
+      "numero": "3000",
+      "colonia": "Iztacalco",
+      "ciudad": "Ciudad de México",
+      "estado": "México",
+      "codigo_postal": "08200",
+      "latitud": 19.416900,
+      "longitud": -99.083400
+    },
+    {
+      "nombre": "Sucursal Monterrey",
+      "codigo_sucursal": "SM001",
+      "calle": "Avenida Constitución",
+      "numero": "1000",
+      "colonia": "Centro",
+      "ciudad": "Monterrey",
+      "estado": "Nuevo León",
+      "codigo_postal": "64000",
+      "latitud": 25.686600,
+      "longitud": -100.316100
+    }
+  ],
+  "ordenes": [
+    {
+      "cliente_id": 1,
+      "sucursal_id": 1,
+      "estado": "entregada",
+      "metodo_pago": "tarjeta_credito",
+      "detalles": [
+        {
+          "producto_id": 3,
+          "cantidad": 2,
+          "precio_unitario": 89.99
+        },
+        {
+          "producto_id": 4,
+          "cantidad": 1,
+          "precio_unitario": 45.99
+        }
+      ]
+    },
+    {
+      "cliente_id": 2,
+      "sucursal_id": 2,
+      "estado": "entregada",
+      "metodo_pago": "tarjeta_debito",
+      "detalles": [
+        {
+          "producto_id": 1,
+          "cantidad": 1,
+          "precio_unitario": 899.99
+        }
+      ]
+    },
+    {
+      "cliente_id": 3,
+      "sucursal_id": 3,
+      "estado": "enviada",
+      "metodo_pago": "transferencia",
+      "detalles": [
+        {
+          "producto_id": 2,
+          "cantidad": 1,
+          "precio_unitario": 299.99
+        },
+        {
+          "producto_id": 6,
+          "cantidad": 1,
+          "precio_unitario": 59.99
+        }
+      ]
+    },
+    {
+      "cliente_id": 4,
+      "sucursal_id": 1,
+      "estado": "pagada",
+      "metodo_pago": "efectivo",
+      "detalles": [
+        {
+          "producto_id": 5,
+          "cantidad": 1,
+          "precio_unitario": 129.99
+        },
+        {
+          "producto_id": 3,
+          "cantidad": 1,
+          "precio_unitario": 89.99
+        }
+      ]
+    },
+    {
+      "cliente_id": 5,
+      "sucursal_id": 4,
+      "estado": "pendiente",
+      "metodo_pago": "paypal",
+      "detalles": [
+        {
+          "producto_id": 7,
+          "cantidad": 2,
+          "precio_unitario": 99.99
+        },
+        {
+          "producto_id": 8,
+          "cantidad": 1,
+          "precio_unitario": 69.99
+        }
+      ]
+    },
+    {
+      "cliente_id": 6,
+      "sucursal_id": 2,
+      "estado": "entregada",
+      "metodo_pago": "tarjeta_credito",
+      "detalles": [
+        {
+          "producto_id": 9,
+          "cantidad": 1,
+          "precio_unitario": 119.99
+        },
+        {
+          "producto_id": 10,
+          "cantidad": 3,
+          "precio_unitario": 25.99
+        }
+      ]
+    },
+    {
+      "cliente_id": 7,
+      "sucursal_id": 5,
+      "estado": "cancelada",
+      "metodo_pago": "tarjeta_debito",
+      "detalles": [
+        {
+          "producto_id": 1,
+          "cantidad": 1,
+          "precio_unitario": 899.99
+        }
+      ]
+    },
+    {
+      "cliente_id": 8,
+      "sucursal_id": 1,
+      "estado": "entregada",
+      "metodo_pago": "transferencia",
+      "detalles": [
+        {
+          "producto_id": 4,
+          "cantidad": 2,
+          "precio_unitario": 45.99
+        },
+        {
+          "producto_id": 6,
+          "cantidad": 1,
+          "precio_unitario": 59.99
+        },
+        {
+          "producto_id": 10,
+          "cantidad": 5,
+          "precio_unitario": 25.99
+        }
+      ]
+    },
+    {
+      "cliente_id": 9,
+      "sucursal_id": 3,
+      "estado": "pagada",
+      "metodo_pago": "efectivo",
+      "detalles": [
+        {
+          "producto_id": 2,
+          "cantidad": 2,
+          "precio_unitario": 299.99
+        }
+      ]
+    },
+    {
+      "cliente_id": 10,
+      "sucursal_id": 4,
+      "estado": "enviada",
+      "metodo_pago": "paypal",
+      "detalles": [
+        {
+          "producto_id": 5,
+          "cantidad": 1,
+          "precio_unitario": 129.99
+        },
+        {
+          "producto_id": 3,
+          "cantidad": 2,
+          "precio_unitario": 89.99
+        }
+      ]
+    },
+    {
+      "cliente_id": 1,
+      "sucursal_id": 2,
+      "estado": "entregada",
+      "metodo_pago": "tarjeta_credito",
+      "detalles": [
+        {
+          "producto_id": 7,
+          "cantidad": 1,
+          "precio_unitario": 99.99
+        },
+        {
+          "producto_id": 8,
+          "cantidad": 2,
+          "precio_unitario": 69.99
+        }
+      ]
+    },
+    {
+      "cliente_id": 2,
+      "sucursal_id": 1,
+      "estado": "pagada",
+      "metodo_pago": "tarjeta_debito",
+      "detalles": [
+        {
+          "producto_id": 9,
+          "cantidad": 1,
+          "precio_unitario": 119.99
+        },
+        {
+          "producto_id": 10,
+          "cantidad": 4,
+          "precio_unitario": 25.99
+        }
+      ]
+    },
+    {
+      "cliente_id": 3,
+      "sucursal_id": 5,
+      "estado": "enviada",
+      "metodo_pago": "transferencia",
+      "detalles": [
+        {
+          "producto_id": 1,
+          "cantidad": 1,
+          "precio_unitario": 899.99
+        },
+        {
+          "producto_id": 2,
+          "cantidad": 1,
+          "precio_unitario": 299.99
+        }
+      ]
+    },
+    {
+      "cliente_id": 4,
+      "sucursal_id": 3,
+      "estado": "entregada",
+      "metodo_pago": "efectivo",
+      "detalles": [
+        {
+          "producto_id": 6,
+          "cantidad": 2,
+          "precio_unitario": 59.99
+        },
+        {
+          "producto_id": 4,
+          "cantidad": 1,
+          "precio_unitario": 45.99
+        }
+      ]
+    },
+    {
+      "cliente_id": 5,
+      "sucursal_id": 1,
+      "estado": "pendiente",
+      "metodo_pago": "paypal",
+      "detalles": [
+        {
+          "producto_id": 3,
+          "cantidad": 3,
+          "precio_unitario": 89.99
+        }
+      ]
+    },
+    {
+      "cliente_id": 6,
+      "sucursal_id": 4,
+      "estado": "entregada",
+      "metodo_pago": "tarjeta_credito",
+      "detalles": [
+        {
+          "producto_id": 5,
+          "cantidad": 1,
+          "precio_unitario": 129.99
+        },
+        {
+          "producto_id": 7,
+          "cantidad": 1,
+          "precio_unitario": 99.99
+        },
+        {
+          "producto_id": 10,
+          "cantidad": 2,
+          "precio_unitario": 25.99
+        }
+      ]
+    },
+    {
+      "cliente_id": 7,
+      "sucursal_id": 2,
+      "estado": "pagada",
+      "metodo_pago": "tarjeta_debito",
+      "detalles": [
+        {
+          "producto_id": 8,
+          "cantidad": 3,
+          "precio_unitario": 69.99
+        }
+      ]
+    },
+    {
+      "cliente_id": 8,
+      "sucursal_id": 5,
+      "estado": "enviada",
+      "metodo_pago": "transferencia",
+      "detalles": [
+        {
+          "producto_id": 2,
+          "cantidad": 1,
+          "precio_unitario": 299.99
+        },
+        {
+          "producto_id": 3,
+          "cantidad": 2,
+          "precio_unitario": 89.99
+        }
+      ]
+    },
+    {
+      "cliente_id": 9,
+      "sucursal_id": 1,
+      "estado": "entregada",
+      "metodo_pago": "efectivo",
+      "detalles": [
+        {
+          "producto_id": 9,
+          "cantidad": 1,
+          "precio_unitario": 119.99
+        },
+        {
+          "producto_id": 4,
+          "cantidad": 2,
+          "precio_unitario": 45.99
+        }
+      ]
+    },
+    {
+      "cliente_id": 10,
+      "sucursal_id": 3,
+      "estado": "pagada",
+      "metodo_pago": "paypal",
+      "detalles": [
+        {
+          "producto_id": 1,
+          "cantidad": 1,
+          "precio_unitario": 899.99
+        }
+      ]
+    },
+    {
+      "cliente_id": 1,
+      "sucursal_id": 4,
+      "estado": "entregada",
+      "metodo_pago": "tarjeta_credito",
+      "detalles": [
+        {
+          "producto_id": 6,
+          "cantidad": 1,
+          "precio_unitario": 59.99
+        },
+        {
+          "producto_id": 7,
+          "cantidad": 1,
+          "precio_unitario": 99.99
+        }
+      ]
+    },
+    {
+      "cliente_id": 2,
+      "sucursal_id": 5,
+      "estado": "enviada",
+      "metodo_pago": "tarjeta_debito",
+      "detalles": [
+        {
+          "producto_id": 5,
+          "cantidad": 2,
+          "precio_unitario": 129.99
+        }
+      ]
+    },
+    {
+      "cliente_id": 3,
+      "sucursal_id": 2,
+      "estado": "pendiente",
+      "metodo_pago": "transferencia",
+      "detalles": [
+        {
+          "producto_id": 8,
+          "cantidad": 1,
+          "precio_unitario": 69.99
+        },
+        {
+          "producto_id": 10,
+          "cantidad": 10,
+          "precio_unitario": 25.99
+        }
+      ]
+    },
+    {
+      "cliente_id": 4,
+      "sucursal_id": 1,
+      "estado": "entregada",
+      "metodo_pago": "efectivo",
+      "detalles": [
+        {
+          "producto_id": 2,
+          "cantidad": 1,
+          "precio_unitario": 299.99
+        },
+        {
+          "producto_id": 3,
+          "cantidad": 1,
+          "precio_unitario": 89.99
+        }
+      ]
+    },
+    {
+      "cliente_id": 5,
+      "sucursal_id": 3,
+      "estado": "pagada",
+      "metodo_pago": "paypal",
+      "detalles": [
+        {
+          "producto_id": 9,
+          "cantidad": 2,
+          "precio_unitario": 119.99
+        }
+      ]
+    }
+  ]
+}
